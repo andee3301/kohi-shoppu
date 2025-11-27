@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'tagline' => 'Cafe thủ công cho mỗi khoảnh khắc',
+    'headline' => 'Cafe và bánh tươi cho buổi sáng trọn vẹn',
+    'subhead' => 'Khám phá thực đơn đồ uống đặc sản, hương vị đặc trưng và bánh nướng mới ra lò lấy cảm hứng từ quán xá Saigon.',
+    'back_to_top' => 'Lên đầu trang',
+    'add_to_cart' => 'Thêm vào giỏ',
+    'cart' => 'Giỏ hàng',
+    'footer' => 'Pha chế với cả tấm lòng tại TP. Hồ Chí Minh • © ' . date('Y') . ' Coffee Shop',
+    'cart_title' => 'Giỏ hàng của bạn',
+    'cart_description' => 'Kiểm tra các món trước khi thanh toán. Bạn có thể chỉnh số lượng hoặc xóa bất kỳ lúc nào.',
+    'cart_empty' => 'Giỏ hàng đang trống. Hãy chọn món yêu thích để thêm vào nhé.',
+    'continue_shopping' => 'Tiếp tục mua sắm',
+    'quantity' => 'Số lượng',
+    'update' => 'Cập nhật',
+    'remove' => 'Xóa',
+    'subtotal' => 'Tạm tính',
+    'clear_cart' => 'Xóa giỏ hàng',
+    'checkout' => 'Tiến hành thanh toán',
+    'added_to_cart' => 'Đã thêm vào giỏ hàng.',
+    'cart_updated' => 'Giỏ hàng đã được cập nhật.',
+    'removed_from_cart' => 'Đã xóa khỏi giỏ hàng.',
+    'cart_cleared' => 'Đã xóa toàn bộ giỏ hàng.',
+    'nav' => [
+        'bakery' => 'Bánh ngọt',
+        'brews' => 'Đồ uống',
+        'signature' => 'Đặc trưng',
+    ],
+];

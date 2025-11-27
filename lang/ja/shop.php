@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'tagline' => '毎日のためのアルチザンコーヒー',
+    'headline' => '丁寧に淹れたコーヒーと焼きたてのペストリーで始まる朝',
+    'subhead' => '街角カフェの文化から着想を得た、スペシャルティコーヒーとシグネチャードリンク、焼き菓子をお楽しみください。',
+    'back_to_top' => 'トップへ戻る',
+    'add_to_cart' => 'カートに追加',
+    'cart' => 'カート',
+    'footer' => 'ホーチミン市で心を込めて焙煎 • © ' . date('Y') . ' Coffee Shop',
+    'cart_title' => 'カート',
+    'cart_description' => 'チェックアウトの前に内容をご確認ください。数量の更新や削除はいつでも可能です。',
+    'cart_empty' => 'カートは空です。お好みのメニューを選んで追加しましょう。',
+    'continue_shopping' => '買い物を続ける',
+    'quantity' => '数量',
+    'update' => '更新',
+    'remove' => '削除',
+    'subtotal' => '小計',
+    'clear_cart' => 'カートを空にする',
+    'checkout' => 'チェックアウトへ進む',
+    'added_to_cart' => 'カートに追加しました。',
+    'cart_updated' => 'カートを更新しました。',
+    'removed_from_cart' => 'カートから削除しました。',
+    'cart_cleared' => 'カートを空にしました。',
+    'nav' => [
+        'bakery' => 'ベーカリー',
+        'brews' => 'ブリュー',
+        'signature' => 'シグネチャー',
+    ],
+];

@@ -1,0 +1,54 @@
+<?php
+
+namespace App\Livewire\Checkout;
+
+use App\Events\LivewireEvent;
+use App\Models\Cart;
+use App\Services\CartService;
+use Illuminate\Contracts\View\View;
+use Illuminate\Support\Facades\Log;
+use Livewire\Component;
+
+class CartBar extends Component
+{
+    public Cart $cart;
+
+    public bool $display = false;
+
+    protected $listeners = [
+        LivewireEvent::CART_UPDATED_EVENT => 'loadingCartData',
+    ];
+
+    public function mount(): void
+    {
+        $this->loadingCartData();
+    }
+
+    public function loadingCartData(): void
+    {
+        $cartService = new CartService();
+        $this->cart = $cartService->getCart();
+        $this->display = $this->cart->items->isNotEmpty();
+    }
+
+    public function removeCartItem($product_id): void
+    {
+        $cartService = new CartService();
+        $cartService->removeCartItem($product_id);
+        $this->loadingCartData();
+
+        Log::channel('user_actions')->info('User remove product out of cart', [
+            'product_id' => $product_id,
+        ]);
+    }
+
+    public function checkout()
+    {
+        return redirect()->route('checkout.index');
+    }
+
+    public function render(): View
+    {
+        return view('livewire.checkout.cart-bar');
+    }
+}

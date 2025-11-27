@@ -22,3 +22,11 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+
+# AI assistant artifacts
+.copilot/
+.copilot_todo
+*.instruction.md
+*.instructions.md
+

@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'tagline' => '為日常儀式準備的職人咖啡',
+    'headline' => '手作咖啡與烘焙甜點開啟專注的一天',
+    'subhead' => '靈感來自街角咖啡館，提供特色手沖、招牌飲品與現烤點心的精選菜單。',
+    'back_to_top' => '回到頁首',
+    'add_to_cart' => '加入購物車',
+    'cart' => '購物車',
+    'footer' => '在胡志明市細心烘焙 • © ' . date('Y') . ' Coffee Shop',
+    'cart_title' => '您的購物車',
+    'cart_description' => '結帳前請再次確認。可隨時調整數量或移除品項。',
+    'cart_empty' => '購物車目前是空的，去挑選喜歡的品項吧。',
+    'continue_shopping' => '繼續選購',
+    'quantity' => '數量',
+    'update' => '更新',
+    'remove' => '移除',
+    'subtotal' => '小計',
+    'clear_cart' => '清空購物車',
+    'checkout' => '前往結帳',
+    'added_to_cart' => '已加入購物車。',
+    'cart_updated' => '購物車已更新。',
+    'removed_from_cart' => '已從購物車移除。',
+    'cart_cleared' => '購物車已清空。',
+    'nav' => [
+        'bakery' => '烘焙',
+        'brews' => '手沖',
+        'signature' => '招牌',
+    ],
+];

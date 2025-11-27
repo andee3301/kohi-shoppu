@@ -123,6 +123,13 @@ return [
             'handler' => NullHandler::class,
         ],
 
+        'user_actions' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/user-actions.log'),
+            'level' => env('LOG_LEVEL', 'info'),
+            'replace_placeholders' => true,
+        ],
+
         'emergency' => [
             'path' => storage_path('logs/laravel.log'),
         ],

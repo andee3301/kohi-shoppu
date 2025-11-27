@@ -84,6 +84,8 @@ return [
 
     'faker_locale' => env('APP_FAKER_LOCALE', 'en_US'),
 
+    'supported_locales' => ['en', 'vi', 'ja', 'zh'],
+
     /*
     |--------------------------------------------------------------------------
     | Encryption Key
@@ -97,6 +99,8 @@ return [
 
     'cipher' => 'AES-256-CBC',
 
+            Laravel\Sanctum\SanctumServiceProvider::class,
+            Laravel\Telescope\TelescopeServiceProvider::class,
     'key' => env('APP_KEY'),
 
     'previous_keys' => [

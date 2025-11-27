@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'tagline' => 'Artisan coffee for everyday rituals',
+    'headline' => 'Handcrafted coffee and pastries for mindful mornings',
+    'subhead' => 'Explore our curated menu of specialty brews, signature drinks, and freshly baked treats inspired by neighbourhood café culture.',
+    'back_to_top' => 'Back to top',
+    'add_to_cart' => 'Add to cart',
+    'cart' => 'Cart',
+    'footer' => 'Brewed with care in Ho Chi Minh City • © ' . date('Y') . ' Coffee Shop',
+    'cart_title' => 'Your Cart',
+    'cart_description' => 'Review your selections before heading to checkout. Update quantities or remove items anytime.',
+    'cart_empty' => 'Your cart is empty. Discover something delicious and add it to your cart.',
+    'continue_shopping' => 'Continue shopping',
+    'quantity' => 'Qty',
+    'update' => 'Update',
+    'remove' => 'Remove',
+    'subtotal' => 'Subtotal',
+    'clear_cart' => 'Clear cart',
+    'checkout' => 'Proceed to checkout',
+    'added_to_cart' => 'Item added to your cart.',
+    'cart_updated' => 'Cart updated successfully.',
+    'removed_from_cart' => 'Item removed from your cart.',
+    'cart_cleared' => 'Cart cleared.',
+    'nav' => [
+        'bakery' => 'Bakery',
+        'brews' => 'Brews',
+        'signature' => 'Signature',
+    ],
+];
